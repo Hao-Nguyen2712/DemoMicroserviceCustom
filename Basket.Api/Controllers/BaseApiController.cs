@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Catalog.Api.Controllers
+namespace Basket.Api.Controllers
 {
     [ApiVersion("1.0")]
-    [ApiController]
     [Route("api/v{version:ApiVersion}/[controller]")]
+    [ApiController]
     public abstract class BaseApiController : ControllerBase
     {
     }
